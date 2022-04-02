@@ -47,9 +47,12 @@
           
         
          <script>
-         var vid = document.getElementById("myVideo");
-		 vid.volume = 0.005;
-         vid.play();
+         
+		window.addEventListener('load', (event) => {
+		    var vid = document.getElementById("myVideo");
+				 vid.volume = 0.005;
+			 vid.play();
+		});
          </script>
          
       </div>
